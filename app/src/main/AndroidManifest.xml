@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="kr.kaist.resl.kitchenhubstorage">
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name">
+
+        <provider
+            android:authorities="kr.kaist.resl.kitchenhubstorage.contentprovider.db"
+            android:name=".contentprovider.DataProvider"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>
